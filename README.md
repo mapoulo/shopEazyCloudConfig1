@@ -1,0 +1,1 @@
+# shopEazyCloudConfig1
