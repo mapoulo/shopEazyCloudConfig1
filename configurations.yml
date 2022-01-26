@@ -1,4 +1,5 @@
- datasource:
+        
+  datasource:
     url: jdbc:mysql://localhost:3306/TheUser?createDatabaseIfNotExist=true
     driver-class-name: com.mysql.cj.jdbc.Driver
     password: NkweMapoulo@1
@@ -8,3 +9,4 @@
       ddl-auto: update        
   application:
     name: PRODUCT-SERVICE 
+ 
