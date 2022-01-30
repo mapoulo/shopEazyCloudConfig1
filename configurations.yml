@@ -10,4 +10,4 @@ spring:
     name: PRODUCT-SERVICE
   cloud:
     config:
-      enabled: false        
+      enabled: true        
