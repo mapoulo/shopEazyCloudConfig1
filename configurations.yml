@@ -5,3 +5,16 @@ eureka:
   instance:
     instance-id: ${spring.application.name}:${random.uuid}
     
+spring:
+  application:
+    name: PRODUCT-SERVICE
+  datasource:
+    url: jdbc:mysql://localhost:3306/ShopEazyProduct?createDatabaseIfNotExist=true
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: NkweMapoulo@1
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: update 
+          
+    
