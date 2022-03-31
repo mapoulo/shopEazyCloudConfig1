@@ -1,5 +1,7 @@
-value:
- name: Nkwe Justice
+location:
+url: http://localhost:8091/api/location/
+
+
 eureka:
   client:
     fetch-registry: true
