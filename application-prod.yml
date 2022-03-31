@@ -1,4 +1,5 @@
-
+value:
+ name: Nkwe
 eureka:
   client:
     fetch-registry: true
