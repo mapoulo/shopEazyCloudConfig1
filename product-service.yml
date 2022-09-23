@@ -1,5 +1,3 @@
-spring:
-  datasource:
     password: NkweMapoulo@1
     username: root
   jpa:
