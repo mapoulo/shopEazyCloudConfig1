@@ -2,13 +2,3 @@ location:
   url: http://localhost:8091/api/location/
 
 
-eureka:
-  client:
-    fetch-registry: true
-    register-with-eureka: true
-    service-url:
-      defaultZone: http://localhost:8761/eureka/
-  instance:
-    hostname: localhost
-
-
