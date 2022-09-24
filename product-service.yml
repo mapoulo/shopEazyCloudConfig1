@@ -1,3 +1,6 @@
+server:
+  port: 0
+
 spring:
   datasource:
     url: jdbc:mysql://localhost:3306/Products?createDatabaseIfNotExist=true
@@ -10,8 +13,7 @@ spring:
   application:
     name: ONLINESHOPPING-PRODUCT-SERVICE 
     
-server:
-  port: 0
+
   
   
 eureka:
