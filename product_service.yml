@@ -13,6 +13,4 @@ eureka:
     hostname: localhost
     instance-id: ${spring.application.name}:${random.uuid} 
     
-    
-url: jdbc:mysql://localhost:3306/Products?createDatabaseIfNotExist=true
-driver-class-name: com.mysql.cj.jdbc.Driver    
+      
